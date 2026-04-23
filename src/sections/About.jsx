@@ -19,8 +19,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Sagar Gala</p>
             <p className="subtext">
-              Over the last 2 years, I developed my frontend and backend dev
-              skills to deliver dynamic web and mobile applications.
+              Senior Full Stack Engineer with 8+ years of experience architecting and delivering scalable web applications across the Node.js and React.js ecosystems. 
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />

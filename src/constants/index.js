@@ -219,38 +219,58 @@ export const myProjects = [
   
   export const experiences = [
     {
-      title: "Junior Software Engineer",
-      job: "Developer",
-      date: "02/2022 - 06/2023",
+      title: "Senior Software Engineer",
+      job: "Aquilae AI, Inc.",
+      date: "12/2025 - Present",
       contents: [
-        "Developed a scalable agreement and term sheet system using Node.js and MongoDB, improving time efficiency by 20%.",
-        "Implemented role-based access control with user roles and permissions mapped to a hierarchical user tree.",
-        "Built an automated reconciliation system with processing time under one minute.",
-        "Integrated transactional APIs to automate and streamline data flow between systems.",
-        "Created Node.js and Python scripts for report generation, saving ~5 hours weekly for other teams.",
-        'Released 6+ cron jobs to automate repetitive tasks and improve operational efficiency.',
-        'Worked with AWS services like SQS and Lambda to build event-driven workflows.'
+        "•	Architected a Node.js + NestJS microservices platform serving AI-powered features to 50,000+ monthly active users, reducing average API response time by 38% through connection pooling and multi-layer Redis caching strategies. ",
+        "•	Engineered a real-time collaboration module using WebSockets and Redis Pub/Sub, enabling sub-100ms event propagation across distributed clients and eliminating a legacy polling mechanism that consumed 22% of backend compute. ",
+        "•	Led migration of a monolithic Node.js Express API to a microservices architecture on AWS ECS, decomposing 6 core domains into independently deployable services and reducing mean time to recovery (MTTR) from 45 minutes to under 8 minutes. ",
+        "•	Designed and delivered a modular React.js frontend architecture using Redux Toolkit and React Query, reducing redundant component re-renders by 47% and cutting time-to-interactive by 1.4 seconds on the primary analytics dashboard. ",
+        "•	Built a GraphQL federation layer over 4 downstream REST APIs, unifying the data access interface for the React frontend and reducing over-fetching by an estimated 60%, measurably improving load time on data-heavy views. ",
+        "•	Established TypeScript strict-mode standards enforced via custom ESLint rules and pre-commit hooks across 3 active repositories, eliminating an average of 14 runtime type errors per sprint and improving PR review velocity. ",
+        "•	Deployed a multi-environment CI/CD pipeline using GitHub Actions and Terraform on AWS, supporting zero-downtime blue-green deployments and reducing release cycle time from 40 minutes to under 9 minutes. ",
+        "•	Mentored 3 mid-level engineers on Node.js performance profiling and React component decomposition patterns, driving a 30% reduction in P1 production bugs and establishing a quarterly architectural review cadence. "
       ],
     },
     {
-      title: "Application Developer",
-      job: "Service-based",
-      date: "11/2020 - 01/2021",
+      title: "Full Stack Developer",
+      job: "Dreamstudio",
+      date: "08/2023 - 11/2025",
       contents: [
-        "Designed and implemented client-facing applications and features in React Native based on detailed requirements and UI/UX specifications.",
-        "Developed 90% of reusable code components to promote maintainability, scalability, and ease of understanding.",
-        "Integrated an API Gateway to fetch and display live data with automatic refresh intervals of 10 seconds, enhancing real-time user experience."]
+        "•	Developed and maintained a Next.js + TypeScript frontend for an AI image generation platform, implementing server-side rendering and incremental static regeneration that improved Lighthouse performance scores from 54 to 91. ",
+        "•	Engineered a Node.js background job processing system using AWS SQS and Bull queue, handling 200,000+ async image generation tasks daily with 99.7% delivery reliability and automated dead-letter reprocessing. ",
+        "•	Designed a REST API gateway using Express.js and JWT authentication, centralizing auth enforcement across 5 microservices and reducing authentication-related incidents by 70% in the first quarter post-launch. ",
+        "•	Refactored the React.js state management layer from Context API to Redux Toolkit, resolving cascading re-render bottlenecks and improving rendering throughput by 35% on high-traffic product pages. ",
+        "•	Integrated PostgreSQL with Prisma ORM for structured asset metadata, designing normalized schemas with full-text search support and reducing average query execution time by 52% through targeted index optimization. ",
+        "•	Built a shared component library in React.js + Storybook standardizing 40+ UI components across 2 product squads, reducing front-end implementation time for new features by approximately 3 days per sprint. "
+      ],
     },
     {
       title: "Software Developer",
-      job: "Application Developer",
-      date: "05/2020 - 09/2020",
+      job: "Getvantage",
+      date: "02/2022 - 06/2023",
       contents: [
-        "Developed the user interface of the mobile application using React Native, delivering a fully functional UI within a tight two-month timeline.",
-        "Implemented JavaScript-to-Java bridging to enable seamless interaction between front-end components and native Android functionalities.",
-        'Configured and optimized the API Gateway to ensure efficient and secure communication between the mobile application and robotic backend systems.'
+        "•	Built core lending and credit-scoring APIs using Node.js and Express.js, integrating 3 third-party financial data providers and processing $2M+ in monthly loan disbursement requests with sub-200ms P95 response times.",
+        "•	Delivered full-stack features across a React.js + TypeScript merchant dashboard, including real-time portfolio analytics powered by WebSockets and server-sent events, adopted by 1,200+ active merchant accounts.",
+        "•	Designed a PostgreSQL multi-tenant schema for financial transaction records, implementing row-level security and audit logging that met SOC 2 compliance requirements and passed two consecutive third-party security audits.",
+        "•	Implemented Redis-backed session management and rate limiting across all REST API endpoints, reducing unauthorized access attempts by 85% and resolving session-fixation vulnerabilities flagged during a security review.",
+        "•	Optimized a critical Node.js data aggregation pipeline using Promise.all parallel batching and MongoDB aggregation stages, reducing nightly reconciliation job runtime from 4.2 hours to 38 minutes.",
+        "•	Integrated AWS S3 and CloudFront for secure KYC document storage and CDN-backed delivery, reducing document retrieval latency by 66% and enforcing signed-URL access controls required for regulatory compliance.",
       ],
     },
+    {
+      title: "Software Developer",
+      job: "Dhanesh Trading Company",
+      date: "01/2018 - 01/2022",
+      contents: [
+        "•	Developed a full-featured student portal using Node.js, Express.js, and React.js, serving 2,000+ university users with course registration, attendance tracking, and grade reporting modules.",
+        "•	Designed and implemented REST API endpoints for academic data operations against a PostgreSQL database, applying input validation middleware that reduced data integrity errors by 40% during the pilot rollout.",
+        "•	Built reusable React.js UI components for the university's administrative dashboard using JavaScript (ES2022+) and component-driven architecture, reducing duplicate front-end code by approximately 35%.",
+        "•	Assisted in deploying the application to AWS EC2 with NGINX as a reverse proxy, configuring SSL termination and a 3-instance load-balanced cluster that supported the university's 2021 enrollment season without downtime.",
+        "•	Authored unit tests using Jest for 12 core API modules, achieving 78% code coverage and establishing a testing baseline that was formally adopted by subsequent intern cohorts."
+      ],
+    }
   ];
   export const reviews = [
     {
